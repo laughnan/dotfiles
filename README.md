@@ -12,7 +12,7 @@ Add the following to ~/.bash_profile
 
 ```
 # Loads dotfiles (customize the list below accordingly)
-for file in ~/dotfiles/.{base,git-completion}; do
+for file in ~/dotfiles/.{base,git-completion,tmux-completion}; do
   [ -r "$file" ] && source "$file"
 done
 unset file
